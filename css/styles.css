@@ -172,6 +172,7 @@ footer {
 	bottom: 0; /* Привязка к низу */
 	width: 100%; /* Ширина на всю страницу */
 	font-family: Arial, sans-serif;
+	clear: both;
 }
 
 footer p {
@@ -230,6 +231,7 @@ nav ul li a {
 		bottom: 0; /* Привязка к низу */
 		width: 100%; /* Ширина на всю страницу */
 		font-family: Arial, sans-serif;
+		clear: both;
 	}
 	
 	footer p {
