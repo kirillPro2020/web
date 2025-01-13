@@ -158,35 +158,6 @@ p {
 	text-decoration: none;
 }
 
-.property {
-	display: flex;
-	align-items: center;
-	margin-bottom: 20px;
-	padding: 15px;
-	border: 1px solid #ddd;
-	border-radius: 10px;
-	background-color: #fff;
-	transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.property:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-
-.property img {
-	margin-right: 15px;
-}
-
-
-.property-details {
-    max-width: 400px;
-	flex-grow: 1;
-
-}
-
-
 a:hover {
 	text-decoration: underline;
 }
@@ -234,4 +205,21 @@ footer p {
     .carousel-item img {
         max-height: 200px; /* Уменьшите максимальную высоту изображений для мобильных */
     }
+	footer {
+		background-color: #333; /* Темный фон */
+		color: #fff; /* Белый текст */
+		text-align: center; /* Центрирование текста */
+		padding: 20px 0; /* Отступы сверху и снизу */
+		position: absolute; /* Позиционирование */
+		bottom: 0; /* Привязка к низу */
+		width: 100%; /* Ширина на всю страницу */
+		font-family: Arial, sans-serif;
+	}
+	
+	footer p {
+		margin: 0; 
+		font-size: 14px; 
+		text-align: center;
+		color: #fff;
+	}
 }
