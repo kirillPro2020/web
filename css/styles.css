@@ -183,7 +183,16 @@ footer p {
 
 /* Медиа-запросы для мобильных устройств */
 @media (max-width: 600px) {
-    #title {
+    html, body {
+		font-family: Arial, sans-serif;
+		line-height: 1.6;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		background-color: #A8D8E0;
+	}
+	
+	#title {
         font-size: 30pt; /* Уменьшите размер заголовка для мобильных */
     }
 
